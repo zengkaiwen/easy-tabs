@@ -31,6 +31,7 @@ css和js文件在仓库的css和js文件夹里面，记住jQuery一定要在tab.
   </div>
 </div>
 ```
+## 简约风格的Tab
 ![简约风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewvagtwxj30e2052a9w.jpg)
 ```html
 <div class="zeus-tab zeus-tab-brief">
@@ -46,6 +47,7 @@ css和js文件在仓库的css和js文件夹里面，记住jQuery一定要在tab.
   </div>
 </div>
 ```
+## 卡片风格Tab
 ![卡片风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewxd4uydj30ac04fmx0.jpg)
 ```html
 <div class="zeus-tab zeus-tab-card">
