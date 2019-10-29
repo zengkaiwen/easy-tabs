@@ -1,0 +1,80 @@
+/**
+ * 共用部分
+ */
+.zeus-tab {
+  margin: 10px 0;
+}
+.zeus-tab > .zeus-tab-title {
+  padding: 0;
+  position: relative;
+  left: 0;
+  height: 40px;
+  white-space: nowrap;
+  font-size: 0;
+}
+.zeus-tab-title > li {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  position: relative;
+  line-height: 40px;
+  min-width: 65px;
+  padding: 0 15px;
+  text-align: center;
+  cursor: pointer;
+  list-style: none;
+}
+.zeus-tab-title .tab-current {
+  color: #000;
+}
+.zeus-tab-content {
+  padding: 10px;
+}
+.zeus-tab-content > .zeus-tab-item {
+  display: none;
+}
+.zeus-tab-content .tab-show {
+  display: block !important;
+}
+.zeus-tab .zeus-tab-title {
+  border-bottom: 1px solid #E6E6E6;
+}
+.zeus-tab > .zeus-tab-title .tab-current {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E6E6E6;
+  border-bottom-color: #FFFFFF;
+  border-radius: 2px 2px 0 0;
+  pointer-events: none;
+  background-color: #FFFFFF;
+}
+/**
+ * 简约风格
+ */
+.zeus-tab-brief > .zeus-tab-title > .tab-current {
+  color: #c31a86;
+  border: none;
+  pointer-events: none;
+  border-bottom: 2px solid #C31A86;
+}
+/**
+ * 卡片风格
+ */
+.zeus-tab.zeus-tab-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+}
+.zeus-tab-card > .zeus-tab-title {
+  background-color: #f2f2f2;
+  border: none;
+}
+.zeus-tab-card > .zeus-tab-title > .tab-current {
+  background-color: #ffffff;
+  pointer-events: none;
+  border: none; 
+}
+.zeus-tab-card > .zeus-tab-title > li {
+  margin: 0 -1;
+  border-radius: 2px 2px 0 0;
+}

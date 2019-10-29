@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tab测试</title>
+    <link rel="stylesheet" href="css/tab.css">
+    <style type="text/css">
+      /* 这里为了方便演示给了距离 */
+      h3 {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h3>普通标签模式</h3>
+    <div id="tab1" class="zeus-tab" onchage="handleTab1Click">
+      <ul class="zeus-tab-title">
+        <li class="tab-current">Tab1</li>
+        <li>Tab2</li>
+        <li>Tab3</li>
+        <li>Tab4</li>
+      </ul>
+      <div class="zeus-tab-content">
+        <div class="zeus-tab-item tab-show">这里是Tab1的内容</div>
+        <div class="zeus-tab-item">这里是Tab2的内容</div>
+        <div class="zeus-tab-item">这里是Tab3的内容</div>
+        <div class="zeus-tab-item">这里是Tab4的内容</div>
+      </div>
+    </div>
+    
+    <h3>简约标签模式</h3>
+    <div id="tab2" class="zeus-tab zeus-tab-brief" onchage="handleTab2Click">
+      <ul class="zeus-tab-title">
+        <li class="tab-current">标签1</li>
+        <li>标签2</li>
+        <li>标签3</li>
+      </ul>
+      <div class="zeus-tab-content">
+        <div class="zeus-tab-item tab-show">这里是1的内容</div>
+        <div class="zeus-tab-item">这里是2的内容</div>
+        <div class="zeus-tab-item">这里是3的内容</div>
+      </div>
+    </div>
+    
+    <h3>卡片标签模式</h3>
+    <div id="tab2" class="zeus-tab zeus-tab-card">
+      <ul class="zeus-tab-title">
+        <li class="tab-current">标签1</li>
+        <li>标签2</li>
+        <li>标签3</li>
+      </ul>
+      <div class="zeus-tab-content">
+        <div class="zeus-tab-item tab-show">这里是1的内容</div>
+        <div class="zeus-tab-item">这里是2的内容</div>
+        <div class="zeus-tab-item">这里是3的内容</div>
+      </div>
+    </div>
+    
+    <script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/tab.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      function handleTab1Click(li, index) {
+        console.log('我收到Tab改变的信息了，当前在第'+index+'个Tab');
+      }
+      
+      function handleTab2Click(li, index) {
+        console.log('这是第二个tab的改变信息，当前在第'+index+'个Tab');
+      }
+    </script>
+  </body>
+</html>
