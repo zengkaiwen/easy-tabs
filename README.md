@@ -14,7 +14,7 @@
 css和js文件在仓库的css和js文件夹里面，记住jQuery一定要在tab.js之前引入
 
 ## 普通的Tab
-[普通标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewtow93xj30cu05ja9w.jpg)
+![普通标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewtow93xj30cu05ja9w.jpg)
 ```html
 <div class="zeus-tab">
   <ul class="zeus-tab-title">
@@ -31,7 +31,7 @@ css和js文件在仓库的css和js文件夹里面，记住jQuery一定要在tab.
   </div>
 </div>
 ```
-[简约风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewvagtwxj30e2052a9w.jpg)
+![简约风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewvagtwxj30e2052a9w.jpg)
 ```html
 <div class="zeus-tab zeus-tab-brief">
   <ul class="zeus-tab-title">
@@ -46,7 +46,7 @@ css和js文件在仓库的css和js文件夹里面，记住jQuery一定要在tab.
   </div>
 </div>
 ```
-[卡片风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewxd4uydj30ac04fmx0.jpg)
+![卡片风格标签页](https://tva1.sinaimg.cn/large/006y8mN6ly1g8ewxd4uydj30ac04fmx0.jpg)
 ```html
 <div class="zeus-tab zeus-tab-card">
   <ul class="zeus-tab-title">
