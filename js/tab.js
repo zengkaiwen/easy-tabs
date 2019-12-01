@@ -1,7 +1,7 @@
 (function($){
   var tabs = $('.zeus-tab');
   tabs.each(function() {
-    tabDiv = $(this);  // 获取当前的tab块
+    var tabDiv = $(this);  // 获取当前的tab块
     // 添加事件委托监听
     tabDiv.on('click', 'li', function() {
       // 在这的this是被点击的li的文档对象
